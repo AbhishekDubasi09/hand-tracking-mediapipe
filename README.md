@@ -20,4 +20,17 @@ It detects 21 hand landmarks, tracks their coordinates, draws them on the video 
 Install the dependencies using:
 
 ```bash
-pip install opencv-python mediapipe
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python main.py
+```
+
+Close the webcam window or press `Ctrl+C` in the terminal to stop. Demo clips and screenshots are in `works samples/`.
+
+## License
+
+Licensed under the [MIT License](LICENSE).
